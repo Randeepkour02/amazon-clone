@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.header{
+    flex-direction: row;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    /* position: fixed; */
+    width: 100%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    background-color:  rgb(37, 37, 38);
+    justify-content: space-evenly;
+    height: 50px;
+    font-size: 110%;
+    padding-top: 1%;
+}
+.nav1{
+   color: white;  
+   text-decoration: none;
+}
+.image1{
+    width: 130px;
+    height: 70px;
+}
+.image11{
+    width: 100%;
+    height: 100%;
+}
+.nav2{
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
+.sbar{
+    width: 50vh;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.second-main{
+    width: 100%;
+    height: 30vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.child3{
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.child4{
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.child5{
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.child6{
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    font-size: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image2{
+    width: 90%;
+    height: 40%;
+}
+.second-main2{
+    width: 100%;
+    height: 20vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15%;
+    
+}
+.heading-main{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 110%;
+    background-color: white;
+    margin-top: 1%;
+}
+.third-main{
+     width: 100%;
+     height: 44px;
+     display: flex;
+     flex-direction: row;
+     background-color: white;
+     margin-top: 2%;
+}
+.third-main-tag{
+    padding-left: 3%;
+    padding-top: 0.5%;
+}
+.third-main-tag a{
+    text-decoration: none;
+    color: rgb(0,113,133);
+}
+.third-main-tag a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.third-main-img{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 3%;
+}
+.image3{
+    width:100% ;
+    height: 60%;
+}
+.image4{
+    width: 100%;
+}
+.fifth-main{
+    display: flex;
+    flex-direction: row;
+    padding-left: 47%;
+    background-color: white;
+    padding-top: 1%;
+    height: 90px;
+    font-size: 90%;
+}
+.fourth-main{
+    padding-left: 46%;
+    background-color: white;
+    font-size: 100%;
+}
+.btn{
+    /* padding-left: 2%; */
+    padding-top: 1%;
+}
+.btn input{
+    font-size: 60%;
+    width: 30%;
+    color: black;
+    background-color:rgb(255,200,60);
+    border-radius: 5px;
+    border-color: rgb(244,181,23);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.fifth-main a{
+    text-decoration: none;
+    color: rgb(74,167,212);
+}
+.fifth-main a:hover{
+    color: brown;
+}
+.sixth-main{
+    background-color: rgb(55,71,90);
+    width: 100%;
+    color: white;
+    height: 42px;
+    text-align: center;
+    padding-top: 1%;
+}
+.seventh-main{
+    width: 100%;
+    height: 59vh;
+    background-color: rgb(35,47,62);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 3%;
+}
+.mid-portion{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 50vh;
+    margin-top: 2%;
+    background-color: white;
+    margin-left: 15%;
+}
+.third-main-img3{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    font-size: 95%;
+}
+.image5{
+    height: 90%;
+    width: 180%;
+    padding-top: 50%;
+    padding-left: 60%;
+}
+.mid-portion-para{
+    padding-left: 20%;
+    padding-top: 15%;
+    font-size: 150%;
+}
+.mid-portion-child{
+    display: flex;
+    flex-direction: row;
+}
+.mid-portion-child1{
+    color: rgb(206,35,114);
+}
+.mid-portion-child-main{
+    padding-top: 2%;
+    padding-left: 3%;
+}
+.mid-portion-child3{
+    color: rgb(130,112,110);
+    font-size: 80%;
+}
+.mid-portion-child4{
+    color: rgb(54,156,198);
+    font-weight: bold;
+}
+.seventh-main-tag{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+}
+.eight-main{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(34,48,64);
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.1%;
+    padding-left: 30%;
+    padding-top: 3%;
+}
+.eight-main img{
+    width: 100%;
+    height: 60%;
+}
+.eight-main-btn{
+    padding-left: 9%;
+    padding-top: 1%;
+    width: 200px;
+    height: 200px;
+}
+.btn2{
+    font-size: 120%;
+    width: 130%;
+    padding-left: 1%;
+    background-color: transparent;
+    color: white;
+    /* padding-top: 2%; */
+    /* padding-bottom: 2%; */
+}
+.ninth-main{
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(19,26,34);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    color: white;
+    font-size: 80%;
+    padding-top: 2%;
+}
+.tenth-main{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(19,26,34);
+    color: white;
+    font-size: 90%;
+}
+.tenth-main-child{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+}
+.tenth-main-child1{
+    padding-left: 42%;
+    padding-top: 0.3%;
+}
+.tenth-main-prechild{
+    padding-left: 38%;
+}
+.tenth-main-prechild1{
+    padding-left: 1.5%;
+}
+.ninth-main1{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(19,26,34);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    color: white;
+    font-size: 80%;
+    padding-left: 22%;
+}
+.ninth-main1-child{
+    padding-left: 11%;
+}
+.ninth-main1-child2{
+    padding-left: 14%;
+}
+.ninth-main1-child3{
+    padding-left: 9%;
+}
+.ninth-main :hover{
+    text-decoration: underline;
+}
+.ninth-main1 :hover{
+    text-decoration: underline;
+}
+.tenth-main-child :hover{
+    text-decoration: underline;
+}
+.seventh-main  a:hover{
+    text-decoration: underline;
+}
+.ninth-main-child{
+    padding-left: 22%;
+}
+.ninth-main-child1{
+    padding-left: 9%;
+}
